@@ -9,5 +9,9 @@ Fail2ban
 
 Starts it with default configuration for SSH Jail.
 
+to install
 
+git clone https://github.com/toocer/lnx-short.git
+
+chmod +x install.sh
 
