@@ -48,11 +48,11 @@ function check_runstate (
 )
 
 function configure_f2b (
-    echo "Not completed!"
-    #cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
-    #cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+    #echo "Not completed!"
+    cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+    cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
     systemctl start fail2ban
-    #systemctl enable fail2ban
+    systemctl enable fail2ban
     echo "Done, Installing and configure F2b with default settings.";
 )
 check
