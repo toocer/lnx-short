@@ -15,3 +15,4 @@ git clone https://github.com/toocer/lnx-short.git
 
 chmod +x install.sh
 
+then run the script with ./install.sh
