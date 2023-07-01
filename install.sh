@@ -6,7 +6,7 @@ test $? -eq 0 || exit 1 "you should have sudo privilege to run this script"
 
 
 function check (
-if [ ! -f "/etc/fail2ban/fail2ban.conf1" ]; then
+if [ ! -f "/etc/fail2ban/fail2ban.conf" ]; then
     echo 'F2b is not installed.'
     install_f2b
     exit 1;
